@@ -46,6 +46,7 @@
                     android:backgroundTint="@android:color/transparent"
                     android:text="Masuk"/>
                 <Button
+                    android:id="@+id/btnDaftar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@android:color/transparent"
@@ -76,7 +77,7 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginHorizontal="50dp"/>
             <EditText
-                android:id="@+id/etUsernameLogin"
+                android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Masukan alamat email anda"
@@ -121,6 +122,7 @@
                     android:text="Lupa Kata Sandi"/>
             </LinearLayout>
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/primary"

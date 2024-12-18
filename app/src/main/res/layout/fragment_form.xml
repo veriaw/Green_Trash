@@ -13,7 +13,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:backgroundTint="#EFEFEF"
+                app:fabCustomSize="35dp"
+                app:srcCompat="@drawable/ic_back"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,12 +60,13 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
                         android:background="@drawable/un_circle"
-                        android:src="@drawable/b_form"
+                        android:src="@drawable/ic_mitra"
                         android:padding="10dp"
-                        android:layout_marginHorizontal="20dp"/>
+                        android:layout_marginHorizontal="20dp"
+                        app:tint="@color/black" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -71,7 +81,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/un_circle"
-                        android:src="@drawable/b_form"
+                        android:src="@drawable/ic_check"
                         android:padding="10dp"
                         android:layout_marginHorizontal="20dp"/>
                     <TextView
@@ -85,10 +95,10 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
                         android:background="@drawable/un_circle"
-                        android:src="@drawable/b_form"
+                        android:src="@drawable/ic_payment"
                         android:padding="10dp"
                         android:layout_marginHorizontal="20dp"/>
                     <TextView
@@ -259,6 +269,17 @@
                     android:inputType="none"
                     />
             </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnSubscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/primary"
+                android:text="Pilih Mitra"
+                android:layout_gravity="center" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

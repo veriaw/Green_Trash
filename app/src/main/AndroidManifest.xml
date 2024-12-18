@@ -16,13 +16,13 @@
             android:name=".ui.subscription.SubscriptionActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.auth.RegisterActivity"
+            android:name=".ui.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.auth.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.auth.RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

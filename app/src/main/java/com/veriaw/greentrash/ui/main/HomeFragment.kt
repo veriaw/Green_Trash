@@ -1,4 +1,4 @@
-package com.veriaw.greentrash.ui
+package com.veriaw.greentrash.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
