@@ -54,6 +54,6 @@
             android:textSize="15sp"
             android:layout_marginHorizontal="16dp"
             android:textAlignment="center"
-            android:text="Wah saat ini kamu belum berlangganan, ayo berlangganan!"
+            android:text="Wah saat ini kamu belum berlangganan, ayo berlangganan!"/>
     </LinearLayout>
 </LinearLayout>
