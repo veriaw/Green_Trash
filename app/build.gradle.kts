@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.veriaw.greentrash"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.veriaw.greentrash"
@@ -66,4 +66,5 @@ dependencies {
     implementation (libs.glide)
     implementation (libs.osmdroid.android)
     implementation (libs.play.services.location)
+
 }
