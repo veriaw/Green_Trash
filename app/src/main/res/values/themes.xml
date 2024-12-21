@@ -3,6 +3,7 @@
     <style name="Base.Theme.GreenTrash" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@android:color/white</item>
     </style>
 
     <style name="Theme.GreenTrash" parent="Base.Theme.GreenTrash" />
