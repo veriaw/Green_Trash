@@ -133,8 +133,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="12dp"
+                android:background="@drawable/rounded_back"
                 android:gravity="center_vertical"
-                android:layout_margin="16dp" >
+                android:layout_marginVertical="16dp" >
 
                 <ImageView
                     android:layout_width="24dp"
@@ -152,12 +153,9 @@
                     android:textSize="16sp" />
                 </LinearLayout>
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvSearch"
+                android:id="@+id/rvMitra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginHorizontal="4dp"
-                android:layout_marginEnd="16dp"
             />
             <Button
                 android:id="@+id/btnSubscription"

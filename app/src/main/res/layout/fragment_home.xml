@@ -66,7 +66,10 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:backgroundTint="@color/primary"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/primary"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="1dp"
                 android:text="Jemput Sampah"
                 android:layout_gravity="center"
                 />
